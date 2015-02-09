@@ -3,6 +3,17 @@ html(lang='en')
   head
     meta(charset='utf-8')
     title Prototype
+    link(rel='stylesheet', href='/style.css')
   body
-    h1 Hello, World
+    h1 simple program
+    input#nums(type='text', autofocus=true, placeholder='enter some numbers')
+    button#add Sum
+    span#sum
+    h2 Odds
+    ul#odds
+    h3#oddsum
+    h2 Evens
+    ul#evens
+    h3#evensum
     script(src='/vendor/jquery/dist/jquery.js')
+    script(src='/main.js')
