@@ -1,1 +1,1 @@
-# simple summation in jquery
+# tutorial
